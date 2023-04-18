@@ -16,9 +16,8 @@
 		669C51C5F2DBEA1834EAB6E59DF700AE /* Pods-PttabbarCustom-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE9C8E08846D043FE387D889278163F6 /* Pods-PttabbarCustom-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		883583D6AFF98AA42276FEB0E2228446 /* PTIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D245FBE9848426512B58B6476E4F1 /* PTIndicatorView.swift */; };
 		8A74AF55366F51009BC94AB0A3A6511F /* Pods-PttabbarCustom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EC41CDE0D733C42D5DF5D29F7A08D2 /* Pods-PttabbarCustom-dummy.m */; };
-		ACF0C5370A05B48890D6E962E1113C45 /* PTCardTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F84C870BDB8102F127FD90C998F481 /* PTCardTabBarController.swift */; };
+		C81A734729CAF38A004E7FBA /* PTCardTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81A734629CAF38A004E7FBA /* PTCardTabBarController.swift */; };
 		EFD35DE588D4EFBE9C6605E9F6F09C52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		F32C2EDDA5ACE14758BCE6F8E0EAE07C /* PTCardTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1964B0D2B36C5FA69A67E12A2FEED1D /* PTCardTabBar.swift */; };
 		F8CE63669E2E1A3EED96472AE52C2424 /* CGPoint+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC736264778E21B4F032DE9C1836C2E0 /* CGPoint+Distance.swift */; };
 		FF850A43C0F174003BC9422D17DFF90E /* PTCardTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 098D9E4A8A2ACD28E02EFA821F8AFCB7 /* PTCardTabBar-dummy.m */; };
 /* End PBXBuildFile section */
@@ -43,17 +42,16 @@
 		4159A5BA01746489F7B3522F92A8C2D7 /* Pods-PttabbarCustom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PttabbarCustom.release.xcconfig"; sourceTree = "<group>"; };
 		490F1351FF718C46AC197845B56EB82C /* PTCardTabBar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PTCardTabBar; path = PTCardTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5252AD0F3B547DB07A1E3D46F59B3EF4 /* PTBarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PTBarButton.swift; path = PTCardTabBar/Classes/PTBarButton.swift; sourceTree = "<group>"; };
-		57F84C870BDB8102F127FD90C998F481 /* PTCardTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PTCardTabBarController.swift; path = PTCardTabBar/Classes/PTCardTabBarController.swift; sourceTree = "<group>"; };
 		5C8FC258DC964DD1B56A55FF311737EE /* Pods-PttabbarCustom-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PttabbarCustom-frameworks.sh"; sourceTree = "<group>"; };
 		6FB15B29BED7571A86C1DBDBC01BC4AE /* PTCardTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PTCardTabBar-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DAC7C258FE8056B6D75ACD4512755F4 /* PTCardTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PTCardTabBar-umbrella.h"; sourceTree = "<group>"; };
-		A1964B0D2B36C5FA69A67E12A2FEED1D /* PTCardTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PTCardTabBar.swift; path = PTCardTabBar/Classes/PTCardTabBar.swift; sourceTree = "<group>"; };
 		A649ED6C9AB56192E20FDC7CF5738831 /* UIColor+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Additions.swift"; path = "PTCardTabBar/Classes/Extensions/UIColor+Additions.swift"; sourceTree = "<group>"; };
 		A9A827BAFE8ACE0F925CEE780584B53A /* Pods-PttabbarCustom-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PttabbarCustom-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A9EC41CDE0D733C42D5DF5D29F7A08D2 /* Pods-PttabbarCustom-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PttabbarCustom-dummy.m"; sourceTree = "<group>"; };
 		AB86C685FE90AE6839A5701D65791473 /* Pods-PttabbarCustom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PttabbarCustom.debug.xcconfig"; sourceTree = "<group>"; };
 		BE9C8E08846D043FE387D889278163F6 /* Pods-PttabbarCustom-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PttabbarCustom-umbrella.h"; sourceTree = "<group>"; };
+		C81A734629CAF38A004E7FBA /* PTCardTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTCardTabBarController.swift; sourceTree = "<group>"; };
 		CF1395BDB66B3B1ACF22F632815DE4DD /* Pods-PttabbarCustom.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PttabbarCustom.modulemap"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		DD27BDDADCDF60DF2CF34117266D7BEC /* PTCardTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PTCardTabBar.modulemap; sourceTree = "<group>"; };
@@ -149,14 +147,12 @@
 			children = (
 				EC736264778E21B4F032DE9C1836C2E0 /* CGPoint+Distance.swift */,
 				5252AD0F3B547DB07A1E3D46F59B3EF4 /* PTBarButton.swift */,
-				A1964B0D2B36C5FA69A67E12A2FEED1D /* PTCardTabBar.swift */,
-				57F84C870BDB8102F127FD90C998F481 /* PTCardTabBarController.swift */,
+				C81A734629CAF38A004E7FBA /* PTCardTabBarController.swift */,
 				2F4D245FBE9848426512B58B6476E4F1 /* PTIndicatorView.swift */,
 				A649ED6C9AB56192E20FDC7CF5738831 /* UIColor+Additions.swift */,
 				23D31FC2FBD93E4658E6909CF84D2AA0 /* UIView+AutoLayout.swift */,
 				EE498D30612554FBAE2B1A61ACF59FFD /* Support Files */,
 			);
-			name = PTCardTabBar;
 			path = PTCardTabBar;
 			sourceTree = "<group>";
 		};
@@ -305,10 +301,9 @@
 			files = (
 				F8CE63669E2E1A3EED96472AE52C2424 /* CGPoint+Distance.swift in Sources */,
 				16E54BDE492002C37AAB5C9D06B64F3A /* PTBarButton.swift in Sources */,
-				F32C2EDDA5ACE14758BCE6F8E0EAE07C /* PTCardTabBar.swift in Sources */,
 				FF850A43C0F174003BC9422D17DFF90E /* PTCardTabBar-dummy.m in Sources */,
-				ACF0C5370A05B48890D6E962E1113C45 /* PTCardTabBarController.swift in Sources */,
 				883583D6AFF98AA42276FEB0E2228446 /* PTIndicatorView.swift in Sources */,
+				C81A734729CAF38A004E7FBA /* PTCardTabBarController.swift in Sources */,
 				30528CE7B3950E819417243D2EB3469F /* UIColor+Additions.swift in Sources */,
 				17E4EC1FD218ED338A341CB60A028274 /* UIView+AutoLayout.swift in Sources */,
 			);
